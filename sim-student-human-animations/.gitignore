@@ -1,0 +1,14 @@
+x64/
+*.obj
+*.pdb
+*.ipdb
+*.iobj
+*.tlog
+*.recipe
+*.lastbuildstate
+
+# Keep the release DLL for assignment review.
+!bin/release/sim-student-human-animations.dll
+bin/release/*.exp
+bin/release/*.lib
+bin/release/*.pdb
