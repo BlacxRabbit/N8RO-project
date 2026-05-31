@@ -6,12 +6,12 @@ This project implements a custom N8RO simulation plugin that drives a Nathan hum
 
 The model registers and plays three custom motion states:
 
-1. `Right Arm Wave`
-   - The character raises the right arm and performs a controlled waving motion.
-2. `Walk In Place`
-   - The character alternates left and right leg movement to demonstrate a walking-in-place cycle.
-3. `Both Arms Raise`
-   - The character raises and lowers both arms together.
+1. `Right Arm Wave/Raise`
+   - The character raises the right arm and performs a controlled waving or raising motion.
+2. `Movement Arms and Legs`
+   - The character alternates arm and leg movement to demonstrate a walking-style motion cycle.
+3. `Both Arms Wave`
+   - The character raises and waves both arms together.
 
 The companion Lua mission script, `student_animation_loop.lua`, switches between these states every 3 seconds.
 
@@ -71,7 +71,7 @@ Copy the Lua mission script to:
 C:\N8RO\resources\missions\student_animation_loop.lua
 ```
 
-In N8RO, load the `GenericCivilianPresence` scenario and assign the mission script to the civilian entity. The GLB viewer should show the human character cycling through `Right Arm Wave`, `Walk In Place`, and `Both Arms Raise`.
+In N8RO, load the `GenericCivilianPresence` scenario and assign the mission script to the civilian entity. The GLB viewer should show the human character cycling through `Right Arm Wave/Raise`, `Movement Arms and Legs`, and `Both Arms Wave`.
 
 ## Submission Video
 
@@ -83,6 +83,6 @@ demo/MOTIONVIDEO.mp4
 
 The screen capture video should show:
 
-- The selected motion states: `Right Arm Wave`, `Walk In Place`, `Both Arms Raise`
+- The selected motion states: `Right Arm Wave/Raise`, `Movement Arms and Legs`, `Both Arms Wave`
 - The human character performing the motions in the N8RO GLB viewer
 - The custom plugin-driven animation states, not only the default idle animation
