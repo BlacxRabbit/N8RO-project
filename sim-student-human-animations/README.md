@@ -75,6 +75,12 @@ In N8RO, load the `GenericCivilianPresence` scenario and assign the mission scri
 
 ## Submission Video
 
+Screen capture video:
+
+```text
+demo/MOTIONVIDEO.mp4
+```
+
 The screen capture video should show:
 
 - The selected motion states: `Right Arm Wave`, `Walk In Place`, `Both Arms Raise`
